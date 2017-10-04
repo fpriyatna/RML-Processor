@@ -123,7 +123,8 @@ public class Main {
                         metadataLevel, metadataFormat, metadataVocab);
             }
 
-            System.exit(0);
+            //System.exit(0);
+            log.info("RML Mapping has been executed.");
             
         } catch (Exception ex) {
             System.exit(1);
